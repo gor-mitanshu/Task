@@ -1,0 +1,44 @@
+.navbar {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  box-shadow: #32325d05 0 2px 5px -1px, #0000000d 0 1px 3px -1px !important;
+  font-size: 16px;
+}
+.appbar {
+  background: black !important;
+}
+.toolbar-navbar {
+  padding: 0;
+  padding-left: 12px !important;
+  position: relative;
+  color: #fff;
+}
+.menu-icon {
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  padding: 0 16px 0 0 !important;
+  font-size: 40px !important;
+}
+.navbar-name-content-center {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+}
+.navbar-title {
+  margin: 4px !important;
+  font-weight: 900 !important;
+  font-size: 26px !important;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: none !important;
+  }
+  .navbar-title {
+    font-size: 22px !important;
+  }
+}
